@@ -4,7 +4,7 @@ import Counter from './Counter'
 
 function App() {
   return (
-    <Counter initialCounter={5} />
+    <Counter initialCount={0} />
   )
 }
 
