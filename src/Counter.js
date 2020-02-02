@@ -13,8 +13,8 @@ export default class Counter extends Component {
   render() {
     return (
       <div>
-        <button>-</button>
-        <span>{this.props.initialCounter}</span>
+        <button onClick={() => this.changeCount(-1)}>-</button>
+        <span>{this.state.count}</span>
         <button>+</button>
       </div>
     )
