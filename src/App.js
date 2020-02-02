@@ -2,9 +2,13 @@ import React from 'react';
 
 
 function App() {
-  return <h1>
-    Hi
-  </h1>
+  return (
+    <div>
+      <button>-</button>
+      <span>0</span>
+      <button>+</button>
+    </div>
+  )
 }
 
 export default App;
